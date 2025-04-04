@@ -1,13 +1,19 @@
-const firstTitle = document.querySelector("h1#title");
-console.log(firstTitle);
+let titleElement = document.getElementById("title");
+console.log(titleElement);
 
-const firstParagraph = document.querySelector("p#paragraph1");
-console.log(firstParagraph);
-console.log((firstParagraph).innerText);
-console.log((firstParagraph).innerText = "My last name is Camacho!")
+// const firstTitle = document.querySelector("h1#title");
+// console.log(firstTitle);
 
-const secondParagraph = document.querySelector("p#paragraph2");
-console.log(secondParagraph);
+// const firstParagraph = document.querySelector("p#paragraph1");
+// console.log(firstParagraph);
+// console.log((firstParagraph).innerText);
+// console.log((firstParagraph).innerText = "My last name is Camacho!")
+
+// const secondParagraph = document.querySelector("p#paragraph2");
+// console.log(secondParagraph);
+
+let description = document.querySelector("p");
+console.log(description );
 
 const allParagraphs = document.querySelectorAll("p");
 console.log(allParagraphs);
